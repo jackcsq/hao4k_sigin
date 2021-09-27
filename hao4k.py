@@ -12,8 +12,6 @@ import os
 import re
 import sys
 
-reload(sys)
-sys.setdefaultencoding("utf-8")
 
 username = "ghostwolf1314"
 password = "4161290liu"
