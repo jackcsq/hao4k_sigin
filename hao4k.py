@@ -61,5 +61,5 @@ def run(form_data):
         return 'signin failed!'
 
 
-# run(form_data)
-print(os.environ)
+run(form_data)
+
