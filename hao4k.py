@@ -13,8 +13,8 @@ import re
 import sys
 
 
-username = "ghostwolf1314"
-password = "4161290liu"
+username = "18928906066"
+password = "zxcasdqwe123"
 
 # hao4k 签到 url
 user_url = "https://www.hao4k.cn//member.php?mod=logging&action=login"
