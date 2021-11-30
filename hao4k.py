@@ -44,7 +44,7 @@ def run(form_data):
             login_url = login_url.replace("amp;", "")
             print(login_url)
     form_text = re.search('formhash=(.*?)\'', user_resp.text)
-    form_data['formhash'] = form_text.group(1)
+  #  form_data['formhash'] = form_text.group(1)
 
     login_resp = s.post(login_url, data=form_data)
     test_resp = s.get('https://www.hao4k.cn/k_misign-sign.html', headers=headers)
